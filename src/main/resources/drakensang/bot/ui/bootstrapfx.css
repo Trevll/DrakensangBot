@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    -fx-font-size: 14px;
+    /* Tmavé pozadí */
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #ffffff; /* základní barva textu */
+}
+
+/* Obecné nastavení tlačítek */
+.btn {
+    -fx-background-color: #3c3c3c;   /* tmavě šedá */
+    -fx-text-fill: #f0f0f0;         /* téměř bílý text */
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-cursor: hand;
+    /* Lehčí stín pod tlačítkem */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 2, 0, 0, 1);
+}
+
+/* Hover efekt: mírné zesvětlení */
+.btn:hover {
+    -fx-background-color: #4c4c4c;
+}
+
+/* Při stisknutí tlačítka ještě tmavší */
+.btn:pressed {
+    -fx-background-color: #2b2b2b;
+}
+
+/* Primární tlačítko – mírně odlišené */
+.btn-primary {
+    -fx-background-color: #5a5a5a;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #6a6a6a;
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #474747;
+}
