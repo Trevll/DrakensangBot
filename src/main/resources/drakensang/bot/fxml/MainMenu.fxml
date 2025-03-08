@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="drakensang.bot.ui.controller.MainMenuController"
+      spacing="15" alignment="CENTER_LEFT">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <Button fx:id="btnMeltGems" text="drakensang.bot.i18n.btnMeltGems.name" styleClass="btn btn-primary"/>
+    <Button fx:id="btnSellItems" text="drakensang.bot.i18n.btnSellItems.name" styleClass="btn btn-primary"/>
+</VBox>

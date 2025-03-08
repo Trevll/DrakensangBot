@@ -3,7 +3,7 @@ package drakensang.bot.i18n.title;
 import drakensang.bot.i18n.IMessageKey;
 
 public enum TitleMessageKey implements IMessageKey {
-    PRIMARY_STAGE_TITLE("drakensang.bot.ui.primaryStage.title");
+    PRIMARY_STAGE_TITLE("drakensang.bot.i18n.primaryStage.title");
 
     private final String key;
 

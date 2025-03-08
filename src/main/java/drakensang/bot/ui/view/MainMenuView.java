@@ -1,4 +1,4 @@
-package drakensang.bot.ui;
+package drakensang.bot.ui.view;
 
 import drakensang.bot.i18n.Messages;
 import drakensang.bot.i18n.button.ButtonMessageKey;
